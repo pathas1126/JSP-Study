@@ -3,9 +3,9 @@ JSP Study in KIC
 
 ## 수업 내용
 
-1. JSP
-2. Script 요소
-3. comment 주석
-4. 배포: WAR 파일 내보내기
-5. Request 내장 객체
-
+1. JavaScript in JSP
+   with(Expression), etc
+2. JSP page 디렉티브
+3. 서블릿 개요
+4. 서블릿 작성
+5. 내장 객체 Response, Out 개요

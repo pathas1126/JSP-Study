@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<title>이름, 주소 전달</title>
+	<script>
+		function test(){
+			document.form.submit();
+		}
+	</script>
+</head>
+<body>
+<!-- <form method="post" action="getdate.jsp"> -->
+<!-- 서블릿에 데이터 전송시 action="/프로젝트명/실행 서블릿 클래스명" -->
+	<form method="get" action="/ServletTest/GetDate">
+		이름: <input type="text" name="name" /><br/>
+		주소: <input type="text" name="addr" /><br/>
+		<input type="submit" value="보내기"/>
+		<input type="button" value="보내기" onclick="test()"/>
+	</form>
+</body>
+</html>
