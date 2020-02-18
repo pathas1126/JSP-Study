@@ -13,7 +13,7 @@
 
 </head>
 <body>
-	<table border="1" width="100%" height="100%">
+<table border="1" width="100%" height="100%">
 		<%
 			for (int i = 0; i < row; i++) {
 		%>
