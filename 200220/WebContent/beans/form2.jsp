@@ -5,11 +5,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>JavaBean 입력 폼</title>
 </head>
 <body>
-<form action="move2.jsp" method="post">
-	이동할 페이지명: <input type="text" name="move" /> 
+<!-- name값은 빈즈 클래스의 프로퍼티 이름과 동일해야 함 -->
+<form action="/bean2.jsp" method="post">
+	이름: <input type="text" name="name" /> <br />
+	주소: <input type="text" name="addr" /> <br />
 	<input type="submit" value="전송" />
 </form>
 
