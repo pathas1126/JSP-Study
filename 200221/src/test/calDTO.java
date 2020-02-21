@@ -30,12 +30,22 @@ public class calDTO {
 		this.oper = oper;
 	}
 
+	public void print() {
+		System.out.println("first: " + first);
+		System.out.println("second: " + second);
+		System.out.println("oper: " + oper);
+	}
+
 	public int calculate() {
-		if (oper == "+") {
+		if (oper == null) {
+			return 0;
+		}
+		
+		if (oper.contentEquals("+")) {
 			return (first + second);
-		} else if (oper == "-") {
+		} else if (oper.contentEquals("-")) {
 			return (first - second);
-		} else if (oper == "*") {
+		} else if (oper.contentEquals("*")) {
 			return (first * second);
 		} else {
 			return (first / second);
